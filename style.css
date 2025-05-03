@@ -1,0 +1,95 @@
+html
+html,body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  
+}
+
+.head{
+  margin-left: 20px;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 4fr 2fr 1fr;
+  column-gap: 10px;
+  margin: 20px;
+}
+
+.input-css, .date-css{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: rgba(45, 45, 45, 0.4) 0px 0px 10px;
+}
+
+
+.btn-css, .js-delete-btn{
+  border: none;
+  background-color: skyblue;
+  color: white;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+.js-wrapper{
+  
+  display: grid;
+  grid-template-columns: 4fr 2fr 1fr;
+  column-gap: 10px;
+  margin: 20px;
+}
+.js-input-css, .js-date-css{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: rgba(45, 45, 45, 0.4) 0px 0px 10px;
+}
+
+
+.js-del-css{
+  border: none;
+  background-color: tomato;
+  color: white;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+  .js-del-css{
+    font-size: 12px;
+    padding:5px;
+  }
+  .js-input-css, .js-date-css{
+    font-size: 12px;
+    padding: 5px;
+  }
+  .input-css, .date-css{
+    font-size: 12px;
+    padding: 5px;
+  }
+ 
+  
+}
+
+@media screen and (max-width:375px) {
+  .js-del-css{
+    font-size: 10px;
+    padding:5px;
+  }
+  .js-input-css, .js-date-css{
+    font-size: 10px;
+    padding: 5px;
+  }
+  .input-css, .date-css{
+    font-size: 10px;
+    padding: 3px;
+  }
+  /* .js-wrapper{
+    margin: 20;
+  } */
+  
+}
+
+ 
