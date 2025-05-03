@@ -1,0 +1,4 @@
+this is a simple highly responsive and interactive todo list web page that fits every screen size. It is a single page application that allows users to add, edit, and delete tasks. The tasks are stored in local storage and can be viewed in a table. 
+this Todo list does not allow invalid date. if a user tries to input an invalid date, the app will display an error message and prevent the task from being added.
+
+The app uses a simple HTML form to add tasks and a table to display the tasks. The tasks are stored in an array and can be edited or deleted by clicking on the corresponding buttons. The app also uses a function to render the tasks in the table and a function to update the tasks in local storage.
